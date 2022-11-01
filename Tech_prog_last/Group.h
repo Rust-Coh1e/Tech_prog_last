@@ -15,12 +15,13 @@ public:
 	int get_size();
 	void set_size(int new_size);
 
-	Student* operator[](int index);
+	//Student* operator[](int index);
 
 	void insert(Student* new_Student);
 	void insert(int ind);
 	void sort();
 	
 	float aver();
+	void define_number();
 };
 
