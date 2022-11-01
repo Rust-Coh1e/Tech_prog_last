@@ -1,11 +1,10 @@
-#include "Student.h"
+#include "lib.h"
 
 using namespace std;
 
 Student::Student()
 {
-	/*name = NULL;
-	ball = nullptr;*/
+	
 }
 
 Student::Student(string new_name)
@@ -85,7 +84,7 @@ void Student::rewrite()
 	delete ball;
 	ball = new int[size];
 
-	cout << "Input marks";
+	cout << "Input marks ";
 
 	for (int i = 0; i < size; i++)
 	{

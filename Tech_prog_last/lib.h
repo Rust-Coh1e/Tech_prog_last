@@ -8,6 +8,8 @@
 #include <fstream>
 
 #include "Student.h"
+#include "Group.h"
 #include "Menu.h"
+
 
 //#endif
