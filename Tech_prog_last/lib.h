@@ -6,9 +6,11 @@
 #include <cstdlib>
 #include <string>
 #include <fstream>
+#include <sstream>
 
 #include "Student.h"
 #include "Group.h"
+#include "FileScanner.h"
 #include "Menu.h"
 
 

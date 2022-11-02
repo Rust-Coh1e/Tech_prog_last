@@ -20,5 +20,7 @@ public:
 	void delete_student();
 	void exit_from_programm();
 	void average_stud();
+	void scan();
+	
 };
 

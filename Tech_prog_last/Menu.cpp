@@ -40,11 +40,20 @@ void Menu::main_menu()
         case 8:
             red_student();
             break;
+        case 9: 
+            scan();
+            break;
         default:
             exit_from_programm();
             break;
         }
     }
+}
+
+void Menu::scan()
+{
+    FileScanner a;
+    a.scan_text();
 }
 
 void Menu::average_stud()
@@ -115,7 +124,7 @@ int Menu::show_options()
     cout << "8 - Redact student" << endl;
     //To work correctly, you need to enter a real number, with two numbers after the dot
     cout << "Task #2" << endl;
-    cout << "7 - " << endl;
+    cout << "9 - File Scan" << endl;
     
     cout << "0 - Exit" << endl;
     cout << "->  ";
