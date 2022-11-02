@@ -12,9 +12,10 @@ public:
 	void main_menu();
 	int show_options();
 	void show_all();//done
-	void change_data();
+	void red_group();
+	void red_student();
 	void add_new_group();//done
-	void add_new_stud(int num);//done
+	void add_new_stud();//done
 	void delete_group();
 	void delete_student();
 	void exit_from_programm();

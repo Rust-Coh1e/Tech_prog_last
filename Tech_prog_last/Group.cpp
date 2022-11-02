@@ -5,18 +5,19 @@ Group::Group()
 	size = 0;
 	data = nullptr;
 	//data = new Student;
+	//cout << "Constructor Group ws called" << endl;
 }
 
 Group::Group(int n_size , int n_number)
 {
 	size = n_size;
 	number = n_number;
-	
+	cout << "Constructor Group ws called" << endl;
 }
 
 Group::~Group()
 {
-
+	cout << "Destructor Group ws called" << endl;
 }
 
 int Group::get_size() { return size; }
@@ -85,17 +86,29 @@ void Group::insert(int ind)
 
 void Group::show()
 {
-	cout << "Group number:" << number << endl;
+	cout << "Group number: " << number << endl;
+	/*if (size > 0)
+	{
+		cout << "Average ball: " << aver() << endl;
+	}*/
+	
 	if (size == 0)
 	{
 		cout << "There is nothing to show" << endl;
 		return;
 	}
+	else
+	{
+		cout << "Average ball: " << aver() << endl;
+	}
+	
 	
 
 	for (int i = 0; i < size; i++)
 	{
+		cout <<endl << i + 1 << ")";
 		data[i].show();
+	
 	}
 }
 

@@ -4,7 +4,7 @@ using namespace std;
 
 Student::Student()
 {
-	
+	//cout << "Constructor Student ws called" << endl;
 }
 
 Student::Student(string new_name)
@@ -12,6 +12,7 @@ Student::Student(string new_name)
 	name = new_name;
 	ball = nullptr;
 	size = 0;
+	//cout << "Constructor Student ws called" << endl;
 }
 
 Student::~Student()
